@@ -1,0 +1,39 @@
+Package: rdhte
+Title: Heterogeneous Treatment Effects in Regression Discontinuity
+        Designs
+Version: 0.0.1
+Authors@R: c(person(given = c("Sebastian"),
+                      family = "Calonico",
+                      role = c("aut", "cre"),
+                      email = "scalonico@ucdavis.edu"),
+               person(given = c("Matias", "D."),
+                      family = "Cattaneo",
+                      role = "aut",
+                      email = "cattaneo@princeton.edu"),
+               person(given = c("Max", "H."),
+                      family = "Farrell",
+                      role = "aut",
+                      email = "maxhfarrell@ucsb.edu"),
+               person(given = "Filippo",
+                      family = "Palomba",
+                      role = "aut",
+                      email = "fpalomba@princeton.edu"),
+               person(given = "Rocio",
+                      family = "Titiunik",
+                      role = "aut",
+                      email = "titiunik@princeton.edu"))
+Description: Understanding heterogeneous causal effects based on pretreatment covariates is a crucial step in modern empirical work in data science. Building on the recent developments in Calonico et al (2025) <https://rdpackages.github.io/references/Calonico-Cattaneo-Farrell-Palomba-Titiunik_2025_HTERD.pdf>, this package provides tools for estimation and inference of heterogeneous treatment effects in Regression Discontinuity (RD) Designs. The package includes two main commands: 'rdhte' to conduct estimation and robust bias-corrected inference for conditional RD treatment effects (given choice of bandwidth parameter); and 'rdbwhte', which implements automatic bandwidth selection methods.
+License: GPL-2
+Imports: rdrobust, sandwich
+Encoding: UTF-8
+RoxygenNote: 7.3.2
+NeedsCompilation: no
+Packaged: 2025-03-24 18:03:11 UTC; sebastian
+Author: Sebastian Calonico [aut, cre],
+  Matias D. Cattaneo [aut],
+  Max H. Farrell [aut],
+  Filippo Palomba [aut],
+  Rocio Titiunik [aut]
+Maintainer: Sebastian Calonico <scalonico@ucdavis.edu>
+Repository: CRAN
+Date/Publication: 2025-03-25 15:50:02 UTC
