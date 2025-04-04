@@ -1,7 +1,7 @@
 Package: rdhte
 Title: Heterogeneous Treatment Effects in Regression Discontinuity
         Designs
-Version: 0.0.1
+Version: 0.0.2
 Authors@R: c(person(given = c("Sebastian"),
                       family = "Calonico",
                       role = c("aut", "cre"),
@@ -28,7 +28,7 @@ Imports: rdrobust, sandwich
 Encoding: UTF-8
 RoxygenNote: 7.3.2
 NeedsCompilation: no
-Packaged: 2025-03-24 18:03:11 UTC; sebastian
+Packaged: 2025-04-04 03:01:43 UTC; sebastian
 Author: Sebastian Calonico [aut, cre],
   Matias D. Cattaneo [aut],
   Max H. Farrell [aut],
@@ -36,4 +36,4 @@ Author: Sebastian Calonico [aut, cre],
   Rocio Titiunik [aut]
 Maintainer: Sebastian Calonico <scalonico@ucdavis.edu>
 Repository: CRAN
-Date/Publication: 2025-03-25 15:50:02 UTC
+Date/Publication: 2025-04-04 03:30:02 UTC
