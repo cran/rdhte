@@ -1,7 +1,7 @@
 Package: rdhte
 Title: Heterogeneous Treatment Effects in Regression Discontinuity
         Designs
-Version: 0.0.2
+Version: 0.1.0
 Authors@R: c(person(given = c("Sebastian"),
                       family = "Calonico",
                       role = c("aut", "cre"),
@@ -22,13 +22,16 @@ Authors@R: c(person(given = c("Sebastian"),
                       family = "Titiunik",
                       role = "aut",
                       email = "titiunik@princeton.edu"))
-Description: Understanding heterogeneous causal effects based on pretreatment covariates is a crucial step in modern empirical work in data science. Building on the recent developments in Calonico et al (2025) <https://rdpackages.github.io/references/Calonico-Cattaneo-Farrell-Palomba-Titiunik_2025_HTERD.pdf>, this package provides tools for estimation and inference of heterogeneous treatment effects in Regression Discontinuity (RD) Designs. The package includes two main commands: 'rdhte' to conduct estimation and robust bias-corrected inference for conditional RD treatment effects (given choice of bandwidth parameter); and 'rdbwhte', which implements automatic bandwidth selection methods.
-License: GPL-2
-Imports: rdrobust, sandwich
+Description: Understanding heterogeneous causal effects based on pretreatment covariates is a crucial step in modern empirical work in data science. Building on the recent developments in Calonico et al (2025) <https://rdpackages.github.io/references/Calonico-Cattaneo-Farrell-Palomba-Titiunik_2025_HTERD.pdf>, this package provides tools for estimation and inference of heterogeneous treatment effects in Regression Discontinuity (RD) Designs. The package includes two main commands: 'rdhte' to conduct estimation and robust bias-corrected inference for conditional RD treatment effects (given choice of bandwidth parameter); 'rdbwhte', which implements automatic bandwidth selection methods; and 'rdhte_lincom' to test linear combinations of parameters.
+License: GPL-3
+Imports: rdrobust, sandwich, multcomp
 Encoding: UTF-8
 RoxygenNote: 7.3.2
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
+Depends: R (>= 3.5)
 NeedsCompilation: no
-Packaged: 2025-04-04 03:01:43 UTC; sebastian
+Packaged: 2025-07-18 19:54:58 UTC; sebastian
 Author: Sebastian Calonico [aut, cre],
   Matias D. Cattaneo [aut],
   Max H. Farrell [aut],
@@ -36,4 +39,4 @@ Author: Sebastian Calonico [aut, cre],
   Rocio Titiunik [aut]
 Maintainer: Sebastian Calonico <scalonico@ucdavis.edu>
 Repository: CRAN
-Date/Publication: 2025-04-04 03:30:02 UTC
+Date/Publication: 2025-07-18 20:10:02 UTC
